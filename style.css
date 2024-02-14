@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+#container {
+    display: grid;
+    height: 100vh; /* Ajuste conforme necessário */
+    grid-template-columns: 1fr 1fr 1fr; /* Divisão em três colunas iguais */
+    position: relative;
+}
+
+#content {
+    grid-column: 2; /* Inicia na segunda coluna */
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    margin-top: 150px;
+    background-image: linear-gradient(to left, #e76443, #feb47b);
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra com aparência 3D */
+  
+}
+#tempInput{
+    font-size:x-large;
+    padding-bottom: 20px;
+    
+}
+#btn1{
+    font-size: x-large;
+    width: 99%;
+    margin-top: 5px;
+}
+#opcaoDe{
+    font-size: x-large;
+}
+#op1{
+    margin-top: 20px;
+}
+#opcaoPara{
+    font-size: x-large;
+}
+#op2{
+    margin-top: 20px;
+}
+#result{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    margin-top: 15px;
+}
+.titulo {
+    font-size: 50px; /* Define o tamanho da fonte */
+    background-image: linear-gradient(to right, #cc3813, #feb47b); /* Define o gradiente de fundo */
+    -webkit-background-clip: text; /* Aplica o gradiente de fundo ao texto */
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente para aplicar o gradiente */
+}
